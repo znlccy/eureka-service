@@ -1,0 +1,17 @@
+server:
+  port: 8671
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+      defalutZone: http://localhost:8671/eureka/
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+# security:
+  # basic:
+    # enabled: true
+  # user:
+    # name: admin
+    # password: admin123456
